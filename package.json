@@ -1,0 +1,35 @@
+{
+  "name": "@emersonbraun/pretty-log",
+  "version": "0.1.0",
+  "description": "Get beautiful consoles easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmersonBraun/pretty-log.git"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "pretty",
+    "pretty-log",
+    "color-log",
+    "color-console"
+  ],
+  "author": "emersonbraun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmersonBraun/pretty-log/issues"
+  },
+  "homepage": "https://github.com/EmersonBraun/pretty-log#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "figures": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "typescript": "^4.0.2"
+  }
+}
