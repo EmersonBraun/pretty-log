@@ -1,6 +1,6 @@
 {
   "name": "@emersonbraun/pretty-log",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Get beautiful consoles easily",
   "main": "index.js",
   "scripts": {
