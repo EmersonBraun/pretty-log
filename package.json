@@ -1,11 +1,12 @@
 {
   "name": "@emersonbraun/pretty-log",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get beautiful consoles easily",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "tsc && node build/test.js"
+    "test": "tsc && node build/test.js",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
