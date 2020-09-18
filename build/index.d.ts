@@ -77,15 +77,17 @@ declare type FigureSet =
   | 'fiveEighths'
   | 'sevenEighth'
 
-export interface Options {
-  icon?: FigureSet
-  iconColor?: ForegroundColor
-  iconUnderlined?: boolean
-  title?: string
-  titleSpace?: number
-  titleColor?: ForegroundColor
-  titleUnderlined?: boolean
-  messageSpace?: number
-  messageColor?: ForegroundColor
-  messageUnderlined?: boolean
+declare module '@emersonbraun/pretty-log' {
+  export interface Options {
+    icon?: FigureSet
+    iconColor?: ForegroundColor
+    iconUnderlined?: boolean
+    title?: string
+    titleSpace?: number
+    titleColor?: ForegroundColor
+    titleUnderlined?: boolean
+    messageSpace?: number
+    messageColor?: ForegroundColor
+    messageUnderlined?: boolean
+  }
 }

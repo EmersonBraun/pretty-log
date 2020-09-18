@@ -5,7 +5,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var chalk_1 = __importDefault(require("chalk"));
 var figures_1 = __importDefault(require("figures"));
-var log = console.log;
 function getIcon(options) {
     var selectedIcon = options.icon || 'tick';
     if (options.iconColor && options.iconUnderlined) {
@@ -59,9 +58,9 @@ function printColoredLog(message, variable, options) {
     var title = options.title ? getTitle(options) : '';
     var msg = getMessage(message, options);
     if (variable)
-        log("" + icon + title + msg + ":", variable);
+        console.log("" + icon + title + msg + ":", variable);
     else
-        log("" + icon + title + msg);
+        console.log("" + icon + title + msg);
 }
 var PrettyLog = /** @class */ (function () {
     function PrettyLog() {

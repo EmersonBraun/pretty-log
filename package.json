@@ -3,9 +3,15 @@
   "version": "0.1.4",
   "description": "Get beautiful consoles easily",
   "main": "build/index.js",
+  "files": [
+    "build/src",
+    "build/index.d.ts",
+    "build/index.js"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "tsc && node build/test.js",
+    "lint": "eslint --ext .js,.ts ./",
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch"
@@ -40,6 +46,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-simple-import-sort": "^5.0.3",
+    "lint-staged": "^10.4.0",
     "prettier": "^2.1.1",
     "rimraf": "^3.0.2",
     "standard-version": "^9.0.0",
