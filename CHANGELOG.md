@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/EmersonBraun/pretty-log/compare/v0.1.2...v0.1.3) (2020-09-18)
+
+
+### Bug Fixes
+
+* resolve output troubles ([b994703](https://github.com/EmersonBraun/pretty-log/commit/b994703eaa81b2ca33afe00d1b15c2a4c22cfddd))
+
 ### [0.1.2](https://github.com/EmersonBraun/pretty-log/compare/v0.1.1...v0.1.2) (2020-09-01)
 
 
