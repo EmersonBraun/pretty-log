@@ -1,5 +1,6 @@
 {
   "hooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "yarn build && yarn audit && eslint 'src/**' --fix && yarn test",
+    "pre-push": "yarn build && yarn audit && eslint 'src/**' --fix && yarn test:ci"
   }
 }

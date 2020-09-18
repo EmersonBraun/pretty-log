@@ -15,7 +15,8 @@
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
-    "test:verbose": "jest --passWithNoTests"
+    "test:verbose": "jest --passWithNoTests",
+    "test:ci": "npm test -- --coverage"
   },
   "repository": {
     "type": "git",
