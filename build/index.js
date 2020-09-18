@@ -74,6 +74,7 @@ var PrettyLog = /** @class */ (function () {
             titleColor: 'blue',
         }; }
         printColoredLog(msg, variable, options);
+        return variable || true;
     };
     PrettyLog.prototype.success = function (msg, variable, options) {
         if (variable === void 0) { variable = null; }
@@ -84,6 +85,7 @@ var PrettyLog = /** @class */ (function () {
             titleColor: 'green',
         }; }
         printColoredLog(msg, variable, options);
+        return variable || true;
     };
     PrettyLog.prototype.warn = function (msg, variable, options) {
         if (variable === void 0) { variable = null; }
@@ -94,6 +96,7 @@ var PrettyLog = /** @class */ (function () {
             titleColor: 'yellow',
         }; }
         printColoredLog(msg, variable, options);
+        return variable || true;
     };
     PrettyLog.prototype.error = function (msg, variable, options) {
         if (variable === void 0) { variable = null; }
@@ -104,10 +107,12 @@ var PrettyLog = /** @class */ (function () {
             titleColor: 'red',
         }; }
         printColoredLog(msg, variable, options);
+        return variable || true;
     };
     PrettyLog.prototype.custom = function (msg, variable, options) {
         if (variable === void 0) { variable = null; }
         printColoredLog(msg, variable, options);
+        return variable || true;
     };
     return PrettyLog;
 }());

@@ -78,6 +78,7 @@ class PrettyLog {
     }
   ) {
     printColoredLog(msg, variable, options)
+    return variable || true
   }
 
   success(
@@ -91,6 +92,7 @@ class PrettyLog {
     }
   ) {
     printColoredLog(msg, variable, options)
+    return variable || true
   }
 
   warn(
@@ -104,6 +106,7 @@ class PrettyLog {
     }
   ) {
     printColoredLog(msg, variable, options)
+    return variable || true
   }
 
   error(
@@ -117,10 +120,12 @@ class PrettyLog {
     }
   ) {
     printColoredLog(msg, variable, options)
+    return variable || true
   }
 
   custom(msg: string, variable: unknown = null, options: Options) {
     printColoredLog(msg, variable, options)
+    return variable || true
   }
 }
 
