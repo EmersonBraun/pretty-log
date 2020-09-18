@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/EmersonBraun/pretty-log/compare/v0.1.3...v0.1.4) (2020-09-18)
+
+
+### Bug Fixes
+
+* solve path of index reference ([b8f8c74](https://github.com/EmersonBraun/pretty-log/commit/b8f8c742e2927ec191b5ccb9287604306a180031))
+
 ### [0.1.3](https://github.com/EmersonBraun/pretty-log/compare/v0.1.2...v0.1.3) (2020-09-18)
 
 
