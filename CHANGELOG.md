@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/EmersonBraun/pretty-log/compare/v1.0.0...v1.1.0) (2020-09-18)
+
+
+### Bug Fixes
+
+* solve coverage ([dc8126e](https://github.com/EmersonBraun/pretty-log/commit/dc8126e1218d27fef8e696e7e3cc57d90dc0e15c))
+* solve module declaration ([2c0fb45](https://github.com/EmersonBraun/pretty-log/commit/2c0fb450ae5de614d2cdc1b6c5f5c94d0d2d0bf5))
+
 ## [1.0.0](https://github.com/EmersonBraun/pretty-log/compare/v0.1.4...v1.0.0) (2020-09-18)
 
 ### [0.1.4](https://github.com/EmersonBraun/pretty-log/compare/v0.1.3...v0.1.4) (2020-09-18)
