@@ -1,8 +1,0 @@
-{
-  ".js,.ts": [
-    "yarn build",
-    "yarn audit",
-    "eslint 'src/**' --fix",
-    "yarn test"
-  ]
-}
