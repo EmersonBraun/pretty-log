@@ -2,7 +2,6 @@ import chalk from 'chalk'
 import figures from 'figures'
 
 import { Options } from './types'
-const log = console.log
 
 function getIcon(options: Options) {
   const selectedIcon = options.icon || 'tick'
@@ -63,8 +62,8 @@ function printColoredLog(
   const title = options.title ? getTitle(options) : ''
   const msg = getMessage(message, options)
 
-  if (variable) log(`${icon}${title}${msg}:`, variable)
-  else log(`${icon}${title}${msg}`)
+  if (variable) console.log(`${icon}${title}${msg}:`, variable)
+  else console.log(`${icon}${title}${msg}`)
 }
 
 class PrettyLog {

@@ -2,7 +2,7 @@
   "name": "@emersonbraun/pretty-log",
   "version": "0.1.2",
   "description": "Get beautiful consoles easily",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "tsc",
     "test": "tsc && node build/test.js",
