@@ -1,5 +1,7 @@
 {
   ".js,.ts": [
-    "eslint 'src/**' --fix"
+    "yarn audit",
+    "eslint 'src/**' --fix",
+    "yarn test"
   ]
 }
