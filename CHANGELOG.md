@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/EmersonBraun/pretty-log/compare/v1.1.0...v1.2.0) (2020-09-21)
+
+
+### Features
+
+* update readme ([3673b6e](https://github.com/EmersonBraun/pretty-log/commit/3673b6ef77d6ce50a339f17e690c20165d1938dd))
+
 ## [1.1.0](https://github.com/EmersonBraun/pretty-log/compare/v1.0.0...v1.1.0) (2020-09-18)
 
 
