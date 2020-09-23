@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1600441183112" clover="3.2.0">
-  <project timestamp="1600441183112" name="All files">
+<coverage generated="1600444375177" clover="3.2.0">
+  <project timestamp="1600444375177" name="All files">
     <metrics statements="63" coveredstatements="52" conditionals="76" coveredconditionals="50" methods="11" coveredmethods="11" elements="150" coveredelements="113" complexity="0" loc="63" ncloc="63" packages="1" files="1" classes="1"/>
     <file name="index.ts" path="/home/braun/Área de Trabalho/workspace/Pessoal/pretty-log/src/index.ts">
       <metrics statements="63" coveredstatements="52" conditionals="76" coveredconditionals="50" methods="11" coveredmethods="11"/>
