@@ -56,4 +56,23 @@ describe('Test Pretty Log', () => {
     })
     expect(val).toBe('hello word')
   })
+
+  test('Test icon undefined', () => {
+    const val = PrettyLog.custom('Test icon', 'hello word', {
+      iconColor: 'black',
+      icon: undefined,
+    })
+
+    expect(val).toBe('hello word')
+  })
+
+  test('Test icon underlined', () => {
+    const val = PrettyLog.custom('Test icon', 'hello word', {
+      iconColor: 'black',
+      iconUnderlined: true,
+      icon: undefined,
+    })
+
+    expect(val).toBe('hello word')
+  })
 })

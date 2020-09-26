@@ -38,8 +38,7 @@
   "homepage": "https://github.com/EmersonBraun/pretty-log#readme",
   "dependencies": {
     "chalk": "^4.1.0",
-    "figures": "^3.2.0",
-    "jest": "^26.4.2"
+    "figures": "^3.2.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.14",
@@ -51,6 +50,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-simple-import-sort": "^5.0.3",
     "husky": "^4.3.0",
+    "jest": "^26.4.2",
     "prettier": "^2.1.1",
     "rimraf": "^3.0.2",
     "standard-version": "^9.0.0",
