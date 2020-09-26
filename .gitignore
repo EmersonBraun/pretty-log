@@ -23,3 +23,32 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+# testing
+/coverage
+/cypress/videos
+lib-cov
+coverage/
+*.lcov
+
+# production
+/build
+/dist
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Other
+.idea/
+*.sublime*
+psd
+thumb
+sketch
+Thumbs.db
+package-lock.json
