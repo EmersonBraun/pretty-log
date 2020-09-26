@@ -58,7 +58,7 @@ function printColoredLog(
   variable: unknown = null,
   options: Options
 ) {
-  const icon = options.icon ? getIcon(options) : ''
+  const icon = getIcon(options)
   const title = options.title ? getTitle(options) : ''
   const msg = getMessage(message, options)
 
